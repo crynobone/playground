@@ -6,4 +6,9 @@ class AdminHomeController extends BaseController {
 	{
 		return '<h1>We are in Playground</h1>';
 	}
+
+	public function getUser()
+	{
+		return User::all();
+	}
 }
