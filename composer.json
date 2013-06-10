@@ -1,6 +1,6 @@
 {
 	"require": {
-		"orchestra/foundation": "2.0.*"
+		"orchestra/foundation": "2.0.0-BETA3"
 	},
 	"autoload": {
 		"classmap": [
