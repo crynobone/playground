@@ -14,4 +14,6 @@ Event::listen('orchestra.started: admin', function ()
 			return ($acl->can('manage article') or $acl->can('manage page'));
 		}, 
 	]);
+
+	$playground['pages'] = 'resource:AdminPagesController';
 });
