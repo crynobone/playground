@@ -3,7 +3,6 @@
 /public/packages/orchestra/foundation/*
 
 # Composer 
-composer.lock
 vendor/*
 
 # Code Coverage

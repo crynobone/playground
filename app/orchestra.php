@@ -1,5 +1,7 @@
 <?php
 
+//throw new Exception("I broke you!");
+
 Orchestra\Acl::make('playground')->attach(Orchestra\App::memory());
 
 Event::listen('orchestra.started: admin', function ()
