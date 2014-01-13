@@ -1,11 +1,11 @@
 <?php
 
-class TestCase extends Illuminate\Foundation\Testing\TestCase {
+abstract class TestCase extends Illuminate\Foundation\Testing\TestCase {
 
 	/**
 	 * Creates the application.
 	 *
-	 * @return Symfony\Component\HttpKernel\HttpKernelInterface
+	 * @return \Symfony\Component\HttpKernel\HttpKernelInterface
 	 */
 	public function createApplication()
 	{
